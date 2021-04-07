@@ -10,7 +10,7 @@ import redis.embedded.RedisServer
  * @Date: 2021/4/1 10:10
  * @Description:
  */
-class RedisMockTest extends AnyFunSpec with EmbeddedRedis with BeforeAndAfterAll {
+class MockRedisTest extends AnyFunSpec with EmbeddedRedis with BeforeAndAfterAll {
 
   var redis: RedisServer = null
   var redisPort: Int = 0
