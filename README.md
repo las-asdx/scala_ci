@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/las-asdx/scala_ci/badge.svg?branch=main)](https://coveralls.io/github/las-asdx/scala_ci?branch=main)
+
 # 代码质量
 
 ##  单元测试
