@@ -5,4 +5,4 @@ script:
 
 after_success:
   - sbt coveralls
-  - bash <(curl -s https://codecov.io/bash) -t 7253621e-d127-42ff-a863-9c3b4082576e
+  - bash <(curl -s https://codecov.io/bash)
