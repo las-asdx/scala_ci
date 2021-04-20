@@ -79,4 +79,9 @@ https://codeclimate.com/
 
 https://aws.amazon.com/cn/blogs/containers/create-a-ci-cd-pipeline-for-amazon-ecs-with-github-actions-and-aws-codebuild-tests/
 
+#TODO
+
+## 放到公司的github里
+## actor testing (https://doc.akka.io/docs/akka/2.6.13/typed/testing.html)
+## stream testing (https://doc.akka.io/docs/akka/current/stream/stream-testkit.html)
 
