@@ -15,13 +15,15 @@ val scalaCache = Seq(
   "com.github.cb372" %% "scalacache-guava" % "0.28.0",
   "com.github.cb372" %% "scalacache-redis" % "0.28.0"
 )
+
 val embeddedkafka = Seq(
-  "io.github.embeddedkafka" %% "embedded-kafka" % "2.5.0",
+  "io.github.embeddedkafka" %% "embedded-kafka" % "2.6.0",
 )
+
 val h2 = Seq(
   "com.h2database" % "h2" % "1.4.197",
 )
-val redis = Seq(
+val redisClient = Seq(
   "net.debasishg" %% "redisclient" % "3.30",
 )
 
@@ -33,7 +35,7 @@ lazy val embedded_redis = Project(id = "embedded-redis", base = file("embedded-r
   .settings(
     libraryDependencies ++=
       Seq("it.ozimov" % "embedded-redis" % "0.7.1") ++
-        redis
+        redisClient
   )
 
 lazy val scala_cache = Project(id = "scala-cache", base = file("scala-cache"))
