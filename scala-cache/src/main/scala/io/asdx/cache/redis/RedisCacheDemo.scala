@@ -6,8 +6,6 @@ import scalacache.modes.sync._
 import scalacache.redis._
 import scalacache.serialization.binary._
 
-import scala.concurrent.duration.DurationInt
-
 /**
  * @auther: liansheng
  * @Date: 2021/5/15 02:06

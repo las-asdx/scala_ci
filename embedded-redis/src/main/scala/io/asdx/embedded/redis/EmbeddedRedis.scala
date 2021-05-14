@@ -18,7 +18,7 @@ import scala.util.{Failure, Success, Try}
 trait EmbeddedRedis {
   @tailrec
   final def getFreePort: Int = {
-    Try(new ServerSocket(6379)) match {
+    Try(new ServerSocket(0)) match {
       case Success(socket) =>
         val port = socket.getLocalPort
         socket.close()
