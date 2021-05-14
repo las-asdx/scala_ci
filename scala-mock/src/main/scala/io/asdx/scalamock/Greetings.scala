@@ -1,4 +1,4 @@
-package io.asdx.citest.scalamock
+package io.asdx.scalamock
 
 /**
  * @auther: liansheng

@@ -1,8 +1,7 @@
-package io.asdx.citest.scalamock
+package io.asdx.embedded.redis
 
 import java.io.IOException
 import java.net.ServerSocket
-
 import redis.embedded.RedisServer
 
 import scala.annotation.tailrec

@@ -1,6 +1,7 @@
-package io.asdx.citest.scalamock
+package io.asdx.scalamock
 
 import com.redis.RedisClient
+import io.asdx.embedded.redis.EmbeddedRedis
 import org.scalatest.BeforeAndAfterAll
 import org.scalatest.funspec.AnyFunSpec
 import redis.embedded.RedisServer

@@ -1,4 +1,4 @@
-package io.asdx.citest.scalamock
+package io.asdx.scalamock
 
 import net.manub.embeddedkafka.EmbeddedKafka
 import org.scalatest.funspec.AnyFunSpec
