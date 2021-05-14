@@ -1,13 +1,12 @@
-package io.asdx.citest.scalamock
+package io.asdx.scalamock
 
-import Greetings.Formatter
-import io.asdx.citest.scalamock.Greetings.Formatter
+import io.asdx.scalamock.Greetings.Formatter
 import org.scalamock.scalatest.MockFactory
 import org.scalatest.funspec.AnyFunSpec
 
 /**
  * @auther: liansheng
- * @Date: 2021/3/31 17:31
+ * @Date: 2021/5/15 01:39
  * @Description:
  */
 class GreetingsTest extends AnyFunSpec with MockFactory {

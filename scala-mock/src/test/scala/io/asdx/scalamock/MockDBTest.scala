@@ -1,4 +1,4 @@
-package io.asdx.citest.scalamock
+package io.asdx.scalamock
 
 import java.io.File
 import java.sql.{Connection, DriverManager, Statement}

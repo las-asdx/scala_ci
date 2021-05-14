@@ -1,8 +1,7 @@
-package io.asdx.citest.scalamock
+package io.asdx.embedded.redis
 
 import java.io.IOException
 import java.net.ServerSocket
-
 import redis.embedded.RedisServer
 
 import scala.annotation.tailrec
@@ -19,7 +18,7 @@ import scala.util.{Failure, Success, Try}
 trait EmbeddedRedis {
   @tailrec
   final def getFreePort: Int = {
-    Try(new ServerSocket(0)) match {
+    Try(new ServerSocket(6379)) match {
       case Success(socket) =>
         val port = socket.getLocalPort
         socket.close()
