@@ -25,7 +25,7 @@ object GuavaCacheDemo {
     db(id)
   }
 
-  def getUser(id: Int): String = memoizeSync(Some(5.seconds)) {
+  def getUser(id: Int): String = memoizeSync(Some(150.milliseconds)) {
     queryDb(id)
   }
 

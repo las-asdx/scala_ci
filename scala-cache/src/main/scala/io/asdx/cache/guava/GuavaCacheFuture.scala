@@ -27,7 +27,7 @@ object GuavaCacheFuture {
     db(id)
   }
 
-  def getUser(id: Int): Future[String] = memoize[Future, String](Some(5.seconds)) {
+  def getUser(id: Int): Future[String] = memoize[Future, String](Some(150.milliseconds)) {
     queryDb(id)
   }
 

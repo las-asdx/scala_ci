@@ -26,7 +26,7 @@ object GuavaCacheTry {
     db(id)
   }
 
-  def getUser(id: Int): Try[String] = memoize[Try, String](Some(5.seconds)) {
+  def getUser(id: Int): Try[String] = memoize[Try, String](Some(150.milliseconds)) {
     queryDb(id)
   }
 
