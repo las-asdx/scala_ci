@@ -5,9 +5,6 @@ version := "0.1"
 
 scalaVersion := "2.12.11"
 
-resolvers += Resolver.jcenterRepo
-resolvers += Resolver.bintrayRepo("helloscala", "maven")
-
 lazy val akkaVersion = "2.6.14"
 lazy val akkaHttpVersion = "10.2.4"
 lazy val akkaGrpcVersion = "1.1.1"
